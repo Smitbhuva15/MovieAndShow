@@ -1,0 +1,238 @@
+.primary{
+  background-color: #0f171e;
+}
+.secondry{
+  background-color: #1a242f;
+}
+
+.font-primary{
+  color: #ffffff;
+}
+
+.font-secondry{
+  color: #79b8f3;
+
+}
+
+.header {
+   height: 72px;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+
+  font-size : 20px;
+  text-decoration: none;
+  font-weight : 600;
+}
+
+.user-image,
+.user-image img {
+  width: 38px;
+  height: 38px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #0f171e ;
+}
+.container {
+  margin: 0px 40px;
+}
+
+.footer {
+  background-color: #1a242f;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  flex-direction: column;
+}
+
+.card-item {
+  background: #1a242f;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%; /* Ensures the card takes up full width of its parent */
+  max-width: 100%; /* Prevents it from exceeding the parent container width */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  box-sizing: border-box; /* Ensures padding and borders are included in the width calculation */
+
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+  }
+}
+
+
+
+.card-top {
+  height: 300px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.card-bottom {
+  padding: 20px;
+}
+.card-info {
+  color:  #ffffff;
+  h4 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+}
+
+.movie-list,
+.show-list {
+  margin: 20px 0px;
+  h2 {
+    color: #79b8f3;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  overflow-x: hidden;
+  grid-gap: 15px;
+}
+.card-inner {
+  display: flex;
+  flex-direction: column; 
+  width: 100%;
+}
+
+.movie-wrapper {
+  overflow-x: hidden; 
+}
+
+.movie-list {
+  overflow-x: hidden;
+}
+
+.barmovie-container {
+  display: grid;
+  width: 100%; 
+  max-width: 100%; 
+  box-sizing: border-box; 
+  overflow-x: hidden; 
+}
+.movies-error{
+  color: #ffffff;
+  text-align: center;
+  font-size: x-large;
+}
+
+
+.movie-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0px;
+  color:#ffffff;
+  font-weight: 400;
+}
+
+.movie-rating {
+  padding-left: 3px;
+  margin-top: 20px;
+  color:#79b8f3;
+  display: flex;
+  span {
+    margin-right: 20px;
+  }
+}
+
+.movie-title {
+  font-size: 40px;
+  color: #ffffff;
+}
+.movie-plot {
+  margin-top: 20px;
+  line-height: 1.8rem;
+}
+
+.movie-info > div span:first-child {
+  padding: 10px 0px;
+  color:#ffffff;
+  font-weight: 600;
+  width: 100px;
+  display: inline-block;
+}
+
+.movie-info > div span {
+  color:#79b8f3;
+}
+
+.fa-star {
+  color: #ff9e00;
+}
+.fa-thumbs-up {
+  color: #fafafa;
+}
+
+.fa-film {
+  color: rgb(191, 213, 214);
+}
+
+.fa-calendar {
+  color: peachpuff;
+}
+
+.section-right {
+  margin-left: 30px;
+}
+.section-left{
+  width: 50%;
+}
+
+.search-bar{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+
+  
+}
+
+.btn1{
+  /* padding: 0px 8px; */
+  font-size: 25px;
+  cursor: pointer;
+  height: 38px;
+  background-color: #fafafa;
+}
+
+.addinputcss{
+  font-size: 18px;
+  width: 100%;
+  padding: 5px 5px 5px 10px;
+  /* padding-left:15px ; */
+  height: 38px;
+  outline: none;
+}
